@@ -1,0 +1,112 @@
+*, html,body{
+    font-family: 'Abril Fatface', cursive;
+    margin: 0;
+    padding: 0;
+}
+
+.container-nav {
+  width: auto;
+}
+
+.wrapper-container {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 15px;
+  width: auto;
+  height: 70px;
+  margin: 0px;
+  background-color: rgb(81, 81, 78);
+  box-shadow: 0 7px 40px 0 rgba(105, 16, 177, 0.5);
+  z-index: relative;
+}
+
+.brand-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  font-size: 1.5em;
+  text-transform: capitalize;
+}
+
+.span-titik {
+  color: rgb(244, 243, 244);
+}
+
+.navigation-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: 24px;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.firstname {
+  color: white;
+  font-weight: 900;
+}
+
+.lastname {
+  color: rgb(238, 95, 13);
+  font-weight: 800;
+  padding-left: 10px;
+}
+
+.navigation-nav>li {
+  list-style: none;
+  padding: 15px;
+  text-transform: capitalize;
+}
+
+.navigation-nav>li>a {
+  color: white;
+  font-weight: 200;
+  text-decoration: none;
+}
+
+.navigation-nav>li>a:hover {
+  color:crimson;
+  transition: all .2s ease-in-out;
+}
+
+.navigation-nav>li>img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.navigation-nav>li>img:hover {
+  width: 65px;
+  height: 65px;
+  border-radius: 65px;
+  transition: all .2s ease-in-out;
+}
+
+.active-nav {
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+}
+
+.active-nav:hover {
+  color: white !important;
+}
+
+.carousel-item {
+  padding: 20px;
+  height:auto;
+}
+
+
+.carousel slide {
+  padding: 50px;
+  width: auto;
+  height: 5px;
+}
+
+.dasboard-das {
+
+  padding: 20px;
+}
